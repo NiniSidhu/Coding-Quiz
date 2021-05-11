@@ -20,6 +20,7 @@ body{
 .Highscore{
     flex: 1 50%;
     padding-left: 300px;
+    
 }
 
 .timer{
@@ -33,31 +34,32 @@ body{
     border: none;
     background-color: #fff;
     color: #bd60e7;
-    justify-content: space-between;  
+    justify-content: space-between;
+    text-shadow: 1px 1px grey;  
 }
 
 .Highscore button a{
     text-decoration: none;
 }
 .Highscore button:hover{
-    border-bottom:solid 7px #bd60e7;
-    border-top: solid 7px #bd60e7;
-    border-radius: 50%;;
+    border: 2px solid #351c75;
+    color: #fff;
+    border-radius: 15px;
 }
-main{
+
+.quiz{
     box-shadow: 10px 10px  grey;
-    /*border: 1px solid red; */
+    border: 1px solid grey; 
     margin-left: 350px;
     margin-right: 350px;
-    
-}
-.quiz{
     padding-top: 220px;
     padding-bottom: 220px;
     
 }
 .quiz h1{
     text-align: center;
+    font-size: 1.9vw;
+    text-shadow: 2.5px 2.5px grey;
 }
 .quiz p{
     text-align: center;
@@ -74,6 +76,7 @@ main{
     border-radius: 15px;
     padding-left: 32px;
     padding-right: 32px;
+    box-shadow: 2px 2px grey;
 }
 
 .startQuiz:hover{
@@ -81,4 +84,14 @@ main{
     color: #351c75;
     border: 2px solid #351c75;
     border-radius: 15px;
+}
+
+footer{
+    text-align: center;
+    color: #351c75;
+    font-size: 1.2vw;
+    
+}
+footer a{
+    text-decoration: none;
 }
