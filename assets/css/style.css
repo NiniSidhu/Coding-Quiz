@@ -49,7 +49,7 @@ body{
 
 .quiz{
     box-shadow: 10px 10px  grey;
-    border: 1px solid grey; 
+    border: 1px solid black; 
     margin-left: 350px;
     margin-right: 350px;
     padding-top: 220px;
@@ -95,3 +95,51 @@ footer{
 footer a{
     text-decoration: none;
 }
+
+.highscorePage{
+    box-shadow: 10px 10px  grey;
+    border: 1px solid black; 
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-top: 200px;
+    padding-bottom: 220px;
+    margin-top: 60px;
+}
+.highscorePage h1{
+    text-align: center;
+    font-size: 1.9vw;
+    text-shadow: 2.5px 2.5px grey;
+    padding-bottom: 20px; 
+}
+.highscorePage p{
+    text-align: center;
+    font-size: 1.8vw;
+    font-weight: bold;
+    
+}
+.goBack{
+    border: none;
+    margin-left: 520px;
+    background-color: #351c75;
+    color: #fff;
+    border-radius: 15px;
+    padding-left: 32px;
+    padding-right: 32px;
+    box-shadow: 2px 2px grey;
+}
+
+.goBack a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.goBack:hover{
+    background-color: #fff;
+    border: 2px solid #351c75;
+    border-radius: 15px;
+}
+.goBack a:hover{
+    color: #351c75;
+
+}
+
