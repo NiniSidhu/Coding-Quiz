@@ -1,0 +1,15 @@
+.html{
+    scroll-behavior: smooth;
+}
+
+.Highscore button{
+    border: none;
+    background-color: #fff;
+    color: #bd60e7;
+}
+
+.Highscore button:hover{
+    border-bottom:solid 7px #bd60e7;
+    border-top: solid 7px #bd60e7;
+    border-radius: 50%;;
+}
