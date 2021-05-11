@@ -110,36 +110,59 @@ footer a{
     font-size: 1.9vw;
     text-shadow: 2.5px 2.5px grey;
     padding-bottom: 20px; 
+    
 }
-.highscorePage p{
+
+.highscorePage ul{
     text-align: center;
     font-size: 1.8vw;
     font-weight: bold;
+    list-style: none;
     
 }
+
+.highscorePage ul li{
+    border: 1px solid grey;
+    background-color: #d9d3e9;
+    margin-left: 240px;
+    margin-right: 240px;
+
+}
+
 .goBack{
     border: none;
-    margin-left: 520px;
+    margin-left: 440px;
     background-color: #351c75;
     color: #fff;
     border-radius: 15px;
     padding-left: 32px;
     padding-right: 32px;
     box-shadow: 2px 2px grey;
+    margin-right: 30px;
 }
 
-.goBack a{
-    color: #fff;
-    text-decoration: none;
-}
+
 
 .goBack:hover{
     background-color: #fff;
     border: 2px solid #351c75;
     border-radius: 15px;
-}
-.goBack a:hover{
     color: #351c75;
-
 }
 
+.reset{
+    border: none;
+    background-color: #351c75;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 2px 2px grey;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-left: 30px;
+}
+.reset:hover{
+    background-color: #fff;
+    border: 2px solid #351c75;
+    border-radius: 15px;
+    color: #351c75;
+}
