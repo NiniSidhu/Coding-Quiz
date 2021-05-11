@@ -1,15 +1,84 @@
+*{
+    box-sizing: border-box;
+}
 .html{
     scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fff;
+}
+
+
+  
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.Highscore{
+    flex: 1 50%;
+    padding-left: 300px;
+}
+
+.timer{
+    flex: 2 50%;
+    text-decoration: none;
+    text-align:end;
+    padding-right: 300px;
 }
 
 .Highscore button{
     border: none;
     background-color: #fff;
     color: #bd60e7;
+    justify-content: space-between;  
 }
 
+.Highscore button a{
+    text-decoration: none;
+}
 .Highscore button:hover{
     border-bottom:solid 7px #bd60e7;
     border-top: solid 7px #bd60e7;
     border-radius: 50%;;
+}
+main{
+    box-shadow: 10px 10px  grey;
+    /*border: 1px solid red; */
+    margin-left: 350px;
+    margin-right: 350px;
+    
+}
+.quiz{
+    padding-top: 220px;
+    padding-bottom: 220px;
+    
+}
+.quiz h1{
+    text-align: center;
+}
+.quiz p{
+    text-align: center;
+    font-size: 1.8vw;
+    font-weight: bold;
+    
+}
+
+.startQuiz{
+    border: none;
+    margin-left: 520px;
+    background-color: #351c75;
+    color: #fff;
+    border-radius: 15px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.startQuiz:hover{
+    background-color: #fff;
+    color: #351c75;
+    border: 2px solid #351c75;
+    border-radius: 15px;
 }

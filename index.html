@@ -10,8 +10,16 @@
      The user can then save their scores using their initials in the game. 
     
 
-     References: 
--->
+     References:
+     
+     1) https://stackoverflow.com/questions/11164567/is-there-a-way-to-slow-down-the-hover-effect
+     2) https://www.w3schools.com/css/css3_shadows_box.asp
+     3) https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span
+     4) https://www.google.com/search?sxsrf=ALeKk01vG8HC1UjmnV-DpW2JGYPgDFs74w:1620712775333&q=how+to+smooth+round+edges+of+button+in+css&spell=1&sa=X&ved=2ahUKEwiUqIbK-cDwAhUEVc0KHZ6KBCEQBSgAegQIARAx&biw=1920&bih=912
+
+
+
+--> 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -22,13 +30,31 @@
         <link rel = "stylesheet" href="./assets/css/style.css">
         <title>Coding Challange Quiz</title>
     </head>
-    <body>
-    <div class = "Highscore">
-        <a href="./highscore.html" target="_blank"></a>
-        <button>
-            <h2>View High Score</h2>
-        </button>
-    </div>
+    <body >
+        <header class = "parent">
+            <div class = "Highscore">
+                <button>
+                    <a href="./highscore.html" target="_blank"> 
+                        <h2>View High Score</h2>
+                    </a>
+                </button>
+            </div>
+            <div class = "timer">
+                    <h2> Time: <span class="timeLeft">0</span> seconds</h2>
+            </div>
+        </header>
+        <main class="quiz">
+            <section></section>
+            <h1 >Coding Quiz Challange</h1>
+            <p>Try to keep the following code-related questions 
+                within the time limit.<br> Keep in mind that incorrect
+                answers will penalize your score/ time <br>by 10 seconds!
+            </p>
+            <button class="startQuiz">
+                <h2> Start Quiz</h2>
+            </button>
+        </main>
+
 
     </body>
 </html>
