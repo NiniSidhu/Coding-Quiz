@@ -34,27 +34,28 @@
         <header class = "parent">
             <div class = "Highscore">
                 <button>
-                    <a href="./highscore.html" target="_blank"> 
+                    <a href="./highscore.html"> 
                         <h2>View High Score</h2>
                     </a>
                 </button>
             </div>
             <div class = "timer">
-                    <h2> Time: <span class="timeLeft">0</span> seconds</h2>
+                    <h2 class="timeLeft"> Time: <span id="timeRemaining" >0</span> seconds</h2>
             </div>
         </header>
         <main >
-            <section class="quiz">
+            <section class="quiz" id="wrapper">
                 <h1 >Coding Quiz Challange</h1>
                 <p>Try to keep the following code-related questions 
                     within the time limit.<br> Keep in mind that incorrect
                     answers will penalize your score/ time <br>by 10 seconds!
                 </p>
-                <button class="startQuiz">
+                <ul id="options"></ul>
+                <button class="startQuiz" id="startTime">
                     <h2> Start Quiz</h2>
                 </button>
             </section>
-            <section class = "questions">
+            <section id = "questions">
                 <script src="./assets/js/script.js"></script>
             </section>
         </main>
