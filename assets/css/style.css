@@ -50,10 +50,10 @@ body{
 .quiz{
     box-shadow: 10px 10px  grey;
     border: 1px solid black; 
-    margin-left: 350px;
-    margin-right: 350px;
-    padding-top: 220px;
-    padding-bottom: 220px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     
 }
 .quiz h1{
@@ -70,7 +70,7 @@ body{
 
 .startQuiz{
     border: none;
-    margin-left: 520px;
+    margin-left: 350px;
     background-color: #351c75;
     color: #fff;
     border-radius: 15px;
@@ -168,3 +168,4 @@ footer a{
     border-radius: 15px;
     color: #351c75;
 }
+

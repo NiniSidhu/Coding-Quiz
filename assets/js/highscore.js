@@ -12,6 +12,7 @@ clear.addEventListener("click", function(){
 // To load score from the  main JS
 var totalScore = localStorage.getItem("totalScore");
 totalScore = JSON.parse(totalScore);
+console.log(totalScore)
 
 if (totalScore !== null){
     
