@@ -1,5 +1,7 @@
 ## Coding-Quiz
 
+# Website Link: https://ninisidhu.github.io/Coding-Quiz/
+
 The user is greeted with main page that has the instructions of the quiz. 
 ![image](https://user-images.githubusercontent.com/79432326/118450682-75ba8200-b6c2-11eb-8c14-1d62fd1c7ddd.png)
 
