@@ -18,6 +18,7 @@ if (totalScore !== null){
     
     for (i =0; i <totalScore.length; i++){
         var nameList = document.createElement("li");
+        
         nameList.textContent = totalScore[i].name+ " " + totalScore[i].score;
         highScore.appendChild(nameList);
     }

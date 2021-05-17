@@ -59,6 +59,7 @@ timer.addEventListener("click", function(){
 
 function render(questionsIndex){
     questionsList.innerHTML="";
+    questionsList.className = "quiz-question";
     optionsUl.innerHTML = "";
     
         var userQuestions = questions[questionsIndex].title;
@@ -67,6 +68,7 @@ function render(questionsIndex){
     
     userChoices.forEach(function (newItem) {
         var listItem = document.createElement("li");
+        listItem.className = "list-item";
         listItem.textContent = newItem;
         optionsUl.append(listItem);
        // questions.appendChild(optionsUl);
@@ -94,7 +96,7 @@ function check(event){
 
     if (questionsIndex >= questions.length){
         completeQuiz();
-        createDiv.textContent = "Your score is: " + score;
+        //createDiv.textContent = "Your score is: " + score;
     }
     else{
         render(questionsIndex);
@@ -122,7 +124,8 @@ function completeQuiz(){
 
     var createLabel = document.createElement("label");
     createLabel.setAttribute("id", "createLabel");
-    createLabel.textContent = "Enter your name hoe";
+    createLabel.textContent = "Enter your name";
+    
 
     questionsList.appendChild(createLabel);
 

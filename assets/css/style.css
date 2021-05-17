@@ -70,7 +70,7 @@ body{
 
 .startQuiz{
     border: none;
-    margin-left: 350px;
+    margin-left: 490px;
     background-color: #351c75;
     color: #fff;
     border-radius: 15px;
@@ -99,11 +99,16 @@ footer a{
 .highscorePage{
     box-shadow: 10px 10px  grey;
     border: 1px solid black; 
-    margin-left: 350px;
-    margin-right: 350px;
-    padding-top: 200px;
-    padding-bottom: 220px;
-    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-top: 35px;
+
+   /* margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 120px;
+    padding-bottom: 120px;*/
 }
 .highscorePage h1{
     text-align: center;
@@ -133,7 +138,7 @@ footer a{
 
 .goBack{
     border: none;
-    margin-left: 440px;
+    margin-left: 410px;
     background-color: #351c75;
     color: #fff;
     border-radius: 15px;
@@ -167,5 +172,38 @@ footer a{
     border: 2px solid #351c75;
     border-radius: 15px;
     color: #351c75;
+}
+
+.quiz-question{
+    font-size: 1.8vw;
+    text-align: center;
+    box-shadow: 10px 10px  grey;
+    border: 1px solid black; 
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.list-item{
+    
+    color: black;
+    list-style: none;
+    counter-increment: my-counter;
+    
+}
+
+.list-item::before{
+    content: counter(my-counter) ". ";
+}
+.list-item:hover{
+    
+    border: 2px solid #351c75;
+    background-color: #351c75;
+    border-radius: 15px;
+    margin-left: 430px;
+    margin-right: 430px;
+    color: #fff;
+    
 }
 
